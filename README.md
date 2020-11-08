@@ -3,6 +3,9 @@ ECDSA 기반 key pair (private, public key) 생성 비트코인의 주소 체계
 디지털 키
 비트코인 주소
 디지털 서명 비트코인의 소유권이 성립된다.
+
+
+
 실행 java -jar AddrDigSig.jar
 
 공개키: 3056301006072a8648ce3d020106052b8104000a0342000430a69bafe6b0b4d1a7a46d181db1b63bcac87b0092454cc902eb0fc022274394546e5901c4e2c1c14d0c02393cf46e76ed7e5a46dfb3be00e21a3b213978e0bc 
