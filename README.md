@@ -1,14 +1,10 @@
-ECDSA ±â¹İ key pair (private, public key) »ı¼º
-ºñÆ®ÄÚÀÎÀÇ ÁÖ¼Ò Ã¼°è¿Í °°Àº ÁÖ¼Ò »ı¼º
-ÀÓÀÇÀÇ µ¥ÀÌÅÍ(¹®ÀÚ¿­)À» private key·Î signature »ı¼º,
-Public key¸¦ ÀÌ¿ëÇÏ¿© °ËÁõ
+ECDSA ê¸°ë°˜ key pair (private, public key) ìƒì„± ë¹„íŠ¸ì½”ì¸ì˜ ì£¼ì†Œ ì²´ê³„ì™€ ê°™ì€ ì£¼ì†Œ ìƒì„± ì„ì˜ì˜ ë°ì´í„°(ë¬¸ìì—´)ì„ private keyë¡œ signature ìƒì„±, Public keyë¥¼ ì´ìš©í•˜ì—¬ ê²€ì¦
 
+ë””ì§€í„¸ í‚¤
+ë¹„íŠ¸ì½”ì¸ ì£¼ì†Œ
+ë””ì§€í„¸ ì„œëª… ë¹„íŠ¸ì½”ì¸ì˜ ì†Œìœ ê¶Œì´ ì„±ë¦½ëœë‹¤.
+ì‹¤í–‰ java -jar AddrDigSig.jar
 
+ê³µê°œí‚¤: 3056301006072a8648ce3d020106052b8104000a0342000430a69bafe6b0b4d1a7a46d181db1b63bcac87b0092454cc902eb0fc022274394546e5901c4e2c1c14d0c02393cf46e76ed7e5a46dfb3be00e21a3b213978e0bc ê°œì¸í‚¤: 303e020100301006072a8648ce3d020106052b8104000a042730250201010420b3e0673eedc2582d36741cd7502470b3176b517559ad673009b3df8c8bc86900 Bitcoin Address: 1GVsscSys19nXbNEJi5g1Z1y8UawVFkeDn ì„œëª…ë‚´ìš©ì„ ì…ë ¥í•˜ì„¸ìš” ì•ˆë…•í•˜ì„¸ìš” ì‚¬ì¸ì…ë‹ˆë‹¤
 
-1. µğÁöÅĞ Å°
-2. ºñÆ®ÄÚÀÎ ÁÖ¼Ò
-3. µğÁöÅĞ ¼­¸í
-ºñÆ®ÄÚÀÎÀÇ ¼ÒÀ¯±ÇÀÌ ¼º¸³µÈ´Ù.
-
-
-
+json data: {"signature":"MEUCIHE40LaUlmPePWErAnRBECyTBkQndop4UTH86H3znaJrAiEAomfHVpO85jGXkBF6zrG6X6F72IBvudhbQVD37lH4yyQ=","publicKey":"MFYwEAYHKoZIzj0CAQYFK4EEAAoDQgAEMKabr+awtNGnpG0YHbG2O8rIewCSRUzJAusPwCInQ5RUblkBxOLBwU0MAjk89G527X5aRt+zvgDiGjshOXjgvA==","message":"ì•ˆë…•í•˜ì„¸ìš”","algorithm":"SHA256withECDSA"} ë””ì§€í„¸ì‚¬ì¸ ë°ì´í„°:{"signature":"MEUCIHE40LaUlmPePWErAnRBECyTBkQndop4UTH86H3znaJrAiEAomfHVpO85jGXkBF6zrG6X6F72IBvudhbQVD37lH4yyQ=","publicKey":"MFYwEAYHKoZIzj0CAQYFK4EEAAoDQgAEMKabr+awtNGnpG0YHbG2O8rIewCSRUzJAusPwCInQ5RUblkBxOLBwU0MAjk89G527X5aRt+zvgDiGjshOXjgvA==","message":"ì•ˆë…•í•˜ì„¸ìš”","algorithm":"SHA256withECDSA"} ì„œëª… ë°ì´í„° í™•ì¸ :true
